@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Home Inspection</string>
+    <string name="title_activity_navigation_main">NavigationMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="outside_spaces">
+        <item>Outside Space1</item>
+        <item>Outside Space2</item>
+        <item>Outside Space3</item>
+        <item>Outside Space4</item>
+        <item>Outside Space5</item>
+    </string-array>
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.homeinspection.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary">
+
+            <FrameLayout
+                android:id="@+id/flBack"
+                android:layout_width="75dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="7dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_back_background" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="Back"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="70dp"
+                android:gravity="center"
+                android:text="Gas Meter"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/checkIn"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:button="@drawable/apptheme_btn_radio_holo_light"
+                                android:text="Check In"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="22sp" />
+
+                            <RadioButton
+                                android:id="@+id/checkOut"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:button="@drawable/apptheme_btn_radio_holo_light"
+                                android:text="Check Out"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="22sp" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Serial No"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <EditText
+                        android:id="@+id/edtSerialNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/style_edittext_background"
+                        android:ems="0"
+                        android:hint="Serial No"
+                        android:inputType="textShortMessage"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Location"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <EditText
+                        android:id="@+id/edtLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/style_edittext_background"
+                        android:ems="0"
+                        android:hint="Location"
+                        android:inputType="text|textShortMessage"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Reading"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <EditText
+                        android:id="@+id/edtReading"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/style_edittext_background"
+                        android:ems="0"
+                        android:hint="Reading"
+                        android:inputType="textEmailAddress|textShortMessage"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Reading1"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <EditText
+                        android:id="@+id/edtReading1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/style_edittext_background"
+                        android:ems="0"
+                        android:hint="Reading1"
+                        android:inputType="text|textShortMessage"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Reading2"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <EditText
+                        android:id="@+id/edtReading2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/style_edittext_background"
+                        android:ems="0"
+                        android:hint="Reading2"
+                        android:inputType="text|textShortMessage"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Reading3"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <EditText
+                        android:id="@+id/edtReading3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/style_edittext_background"
+                        android:ems="0"
+                        android:hint="Reading3"
+                        android:inputType="text|textShortMessage"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="Meter Images"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_camera" />
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_camera" />
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_camera" />
+
+                        <ImageView
+                            android:id="@+id/image4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_camera" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnDone"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/style_button_background"
+                        android:text="Done"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

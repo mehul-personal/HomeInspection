@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_property_listing"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Property Listing" />
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tenancy_details"
+            android:icon="@drawable/ic_menu_tenancy_details"
+            android:title="Tenancy Details" />
+    </group>
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_meter_readings"
+            android:icon="@drawable/ic_menu_meter_reading"
+            android:title="Meter Readings" />
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_safety_general"
+            android:icon="@drawable/ic_menu_safty_general"
+            android:title="Safety &amp; General" />
+    </group>
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_property_overview"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Property Overview" />
+    </group>
+    <group
+        android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_room_order"
+            android:icon="@drawable/ic_menu_room_order"
+            android:title="Room Order" />
+    </group>
+    <group
+        android:id="@+id/grp7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_declaration"
+            android:icon="@drawable/ic_menu_declaration"
+            android:title="Declaration" />
+    </group>
+    <group
+        android:id="@+id/grp8"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_generate_pdf"
+            android:icon="@drawable/ic_menu_generatepdf"
+            android:title="Generate PDF" />
+    </group>
+    <group
+        android:id="@+id/grp9"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_signedout"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Log out" />
+    </group>
+</menu>

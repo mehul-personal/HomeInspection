@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:padding="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_main_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="Home Inspection"
+            android:textColor="#8c001a"
+            android:textSize="35sp"
+            android:textStyle="italic|bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="top|center_horizontal"
+            android:scaleType="fitCenter"
+            android:text="Never Was So Easy!"
+            android:textColor="#ffffff"
+            android:textSize="28sp"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+</RelativeLayout>
